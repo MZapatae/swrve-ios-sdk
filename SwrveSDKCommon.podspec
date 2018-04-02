@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.swrve.com"
   s.license          = { "type" => "Apache License, Version 2.0", "file" => s.name.to_s + "/LICENSE" }
   s.authors          = "Swrve Mobile Inc or its licensors"
-  s.source           = { :git => "https://github.com/Swrve/swrve-ios-sdk.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/MZapatae/swrve-ios-sdk.git", :branch => "FixXcode9.3" }
   s.social_media_url = 'https://twitter.com/Swrve_Inc'
 
   s.platforms    = { :ios => "6.0", :tvos => "9.0" }
